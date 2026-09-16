@@ -87,7 +87,7 @@ function Projects() {
                 className="group overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] transition-all duration-200 hover:-translate-y-1 hover:border-[var(--accent)]"
               >
                 {/* Project image */}
-                <div className="aspect-video overflow-hidden border-b border-[var(--border)] bg-[var(--bg-primary)]">
+                <div className="relative aspect-video overflow-hidden border-b border-[var(--border)] bg-[var(--bg-primary)]">
                   {project.image ? (
                     <img
                       src={project.image}
@@ -100,6 +100,13 @@ function Projects() {
                         Project Preview
                       </span>
                     </div>
+                  )}
+
+                  {/* Featured badge */}
+                  {project.featured && (
+                    <span className="absolute left-3 top-3 rounded-full border border-[#2DD4BF]/40 bg-[#042F2E] px-3 py-1 text-[11px] font-semibold text-[#5EEAD4]">
+                      ✦ Featured
+                    </span>
                   )}
                 </div>
 
