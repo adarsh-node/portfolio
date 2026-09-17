@@ -40,7 +40,7 @@ function Hero() {
     },
     {
       name: "Email",
-      href: "https://mail.google.com/mail/?view=cm&fs=1&to=it.adarsh03@gmail.com",
+      href:"mailto:it.adarsh03@gmail.com",
       icon: Mail,
     },
   ];

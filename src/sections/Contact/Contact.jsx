@@ -103,7 +103,7 @@ function Contact() {
           <div className="space-y-4">
             {/* Email */}
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=it.adarsh03@gmail.com"
+              href="mailto:it.adarsh03@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex cursor-pointer items-center gap-4 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-[var(--accent)]"
