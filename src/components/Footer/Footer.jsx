@@ -97,7 +97,7 @@ function Footer() {
 
             <div className="mt-5 space-y-4">
               <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=it.adarsh03@gmail.com"
+                href="mailto:it.adarsh03@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex cursor-pointer items-center gap-3 text-sm text-[var(--text-secondary)] transition-colors hover:text-[var(--accent)]"
